@@ -35,9 +35,9 @@ public class StudentScores {
         System.out.println("\nPass/Fail Results:");
         for(int i = 0; i < numStudents; i++) {
             if(scores[i] >= 50) {
-                System.out.println("Students" + (i + 1) + ":Score = " + scores[i] + "(Pass)");
+                System.out.println("Student " + (i + 1) + ": Score = " + scores[i] + "(Pass)");
             }else {
-                System.out.println("Student " + (i + 1) + ":Score = " + scores[i] + "(Fall)");
+                System.out.println("Student " + (i + 1) + ": Score = " + scores[i] + "(Fall)");
             }
         }
     }
